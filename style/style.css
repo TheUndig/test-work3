@@ -1,0 +1,253 @@
+body {
+	background-color: #ffffff;
+	min-width: 300px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	line-height: 1.75;
+	color: #333333;
+	font-weight: 400;
+	-webkit-overflow-scrolling:touch;
+}
+
+.container-fluid {
+    overflow: hidden;
+}
+
+.bg-img {
+    min-height: 320px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.mosigra {
+    padding: 0px;
+    background-image: url(/img/bg-case-mosigra.jpg);
+}
+
+.dantone {
+    padding: 0px;
+    background-image: url(/img/bg-case-dantonehome.jpg);
+}
+
+.heli {
+    padding: 0px;
+    background-image: url(/img/bg-case-heliclub.jpg);
+}
+
+.infotecs {
+    padding: 0px;
+    background-image: url(/img/bg-case-infotecs.jpg);
+}
+
+.dtg {
+    padding: 0px;
+    background-image: url(/img/bg-case-dtgroup.jpg);
+}
+
+.aberton {
+    padding: 0;
+    background-image: url(/img/bg-case-aberton.jpg);
+}
+
+.alpeneuro {
+    padding: 0;
+    background-image: url(/img/bg-case-alpeneuro.jpg);
+}
+
+.adalux {
+    padding: 0;
+    background-image: url(/img/bg-case-adalux.jpg);
+}
+
+.globaldialog {
+    padding: 0;
+    background-image: url(/img/bg-case-globaldialog.jpg);
+}
+
+.rezap {
+    padding: 0;
+    background-image: url(/img/bg-case-rezap.jpg);
+}
+
+.super {
+    padding: 0;
+    background-image: url(/img/bg-case-superpohod.jpg);
+}
+
+.mospar {
+    padding: 0;
+    background-image: url(/img/bg-case-mosparohodstvo.jpg);
+}
+
+.metodlit {
+    padding: 0;
+    background-image: url(/img/bg-case-metodlit.jpg);
+}
+
+.mir {
+    padding: 0;
+    background-image: url(/img/bg-case-mirshapok.jpg);
+}
+
+.yur {
+    padding: 0;
+    background-image: url(/img/bg-case-yurmino.jpg);
+}
+
+.item-link {
+    z-index: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-top: 40px;
+    transition: background-color .4s ease;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+.item-link:hover {
+    top: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover .shadow{
+    opacity: 0;
+}
+
+.mosigra a:hover {
+    background-color: red;
+}
+
+.dantone a:hover {
+    background-color: #111e35;
+}
+
+.heli a:hover {
+    background-color: #2a539d;
+}
+
+.infotecs a:hover {
+    background-color: #235a8f;
+}
+
+.heli a:hover {
+    background-color: #2a539d;
+}
+
+.dtg a:hover {
+    background-color: #ff4400;
+}
+
+.aberton a:hover {
+    background-color: #102f4a;
+}
+
+.alpeneuro a:hover {
+    background-color: #3a3936;
+}
+
+.adalux a:hover {
+    background-color: #ffd273;
+}
+
+.globaldialog a:hover {
+    background-color: #e21f1d;
+}
+
+.rezap a:hover {
+    background-color: #4dab79;
+}
+
+.super a:hover {
+    background-color: #7eb84a;
+}
+
+.mospar a:hover {
+    background-color: #e94625;
+}
+
+.metodlit a:hover {
+    background-color: #019966;
+}
+
+.mir a:hover {
+    background-color: linear-gradient(to right, #5a9a0e 25%, #d16f18 100%);;
+}
+
+.yur a:hover {
+    background-color: #50bded;
+}
+
+.logo {
+    position: relative;
+    top: 0;
+    z-index: 300;
+    transition: .4s linear;
+    max-width: 100px;
+}
+
+.item-title {
+    position: relative;
+    top: 0;
+    z-index: 400;
+    transition: .4s linear;
+    text-align: center;
+}
+
+.item-link:hover .logo {
+    top: 50px;
+    opacity: 1;
+}
+
+.item-link:hover .item-title {
+    top: 50px;
+}
+
+.letter {
+    position: absolute;
+    z-index: 100;
+    left: 300px;
+    top: 10px;
+    font-size: 35rem;
+    line-height: 1;
+    font-weight: bold;
+    color: rgba(0,0,0,.2);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.item-link:hover .letter {
+    opacity: 0.5;
+}
+
+.logo img {
+    height: auto;
+    max-width: 100px;
+}
+
+.logo {
+    opacity: 0;
+}
+
+.logo:hover {
+    opacity: 1;
+}
+
+.shadow {
+    background: #000000;
+	opacity: .5;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
+	-webkit-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
